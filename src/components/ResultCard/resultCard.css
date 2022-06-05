@@ -1,0 +1,37 @@
+.resultCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(216, 12%, 8%);
+  border-radius: 20px;
+  padding: 3rem;
+  width: 412px;
+}
+
+.resultCard .imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.resultCard .ratingResult {
+  background-color: hsl(213, 19%, 18%);
+  padding: 0.3rem 1rem;
+  border-radius: 15px;
+  color: hsl(25, 97%, 53%);
+  margin-bottom: 2rem;
+}
+
+.resultCard h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 1rem;
+}
+
+.resultCard .description {
+  color: hsl(216, 12%, 54%);
+  margin-bottom: 0;
+  text-align: center;
+}

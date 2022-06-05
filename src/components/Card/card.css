@@ -1,0 +1,41 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(216, 12%, 8%);
+  border-radius: 20px;
+  padding: 2rem;
+  width: 412px;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+
+.card .imgContainer {
+  width: fit-content;
+  padding: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(213, 19%, 18%);
+  margin-bottom: 2rem;
+}
+
+.card img {
+  width: 14px;
+}
+
+.card p {
+  color: hsl(216, 12%, 54%);
+  margin-bottom: 0;
+}
+
+.card .buttonContainer {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}

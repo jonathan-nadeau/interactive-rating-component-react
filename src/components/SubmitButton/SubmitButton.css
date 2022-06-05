@@ -1,0 +1,16 @@
+.submitButton {
+  width: 100%;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 20px;
+  letter-spacing: 0.1rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.submitButton:hover {
+  background-color: hsl(25, 97%, 45%);
+  color: white;
+  cursor: pointer;
+}
